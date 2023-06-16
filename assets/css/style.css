@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Common */
+.content {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Header */
+.header .body {
+    display: flex;
+}
+
+.header .nav {
+    margin-left: auto;
+    /* đẩy dồn sang bên phải hết kể cả phần action */
+}
+
+.header .nav ul {
+    display: flex;
+}
+
