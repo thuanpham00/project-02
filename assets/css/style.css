@@ -412,7 +412,6 @@ a {
 .popular .popular-item .btn-foot:hover {
     cursor: pointer;
     background: var(--primary-color);
-    color: #fff;
     border-color: 1px solid var(--primary-color);
 }
 
