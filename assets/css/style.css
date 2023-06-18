@@ -1,6 +1,6 @@
 /* thẻ div là block
 thẻ span là inline
-thẻ a là inline nên không hoạt động với box-model(padding-margin...) phải thêm display: inline-block mới hđ */
+thẻ a là inline nên không hoạt động với box-model(padding,margin...) phải thêm display: inline-block mới hđ */
 
 * {
     box-sizing: border-box;
