@@ -1,4 +1,10 @@
 /* thẻ div là block
+( thẻ block là mỗi phần tử chiếm full chiều rộng và xuống dòng khi có phần tử mới
+nên nó ăn box-model nên ko cần display thêm )
+( thẻ inline thì phần tử nó chỉ chiếm chiều rộng nó cần và không xuống dòng nên 
+không ăn box-model nên cần display: inline-block để có thuộc tính của block
+mới ăn được các thẻ của box-model )
+
 thẻ span là inline
 thẻ a là inline nên không hoạt động với box-model(padding,margin...) phải thêm display: inline-block mới hđ */
 
